@@ -37,3 +37,9 @@ This script is used to split .txt files into multiple ones so my poor self can u
 1. TODO
 
 *Only been used for atleast [python 3.9](https://www.python.org/downloads/release/python-390/) or higher*
+
+### GetRequest.py
+
+This script performs a get request from specified url and writes it to a specified file
+
+*Only been used for atleast [python 3.9](https://www.python.org/downloads/release/python-390/)*
