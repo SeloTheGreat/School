@@ -1,10 +1,9 @@
 import pathlib
 
-_PARENT = input("Folder path to query split within, default=\"\"\n:") or "."
-DIRECTORY = _PARENT + r"\split"
+DIRECTORY = input("Folder path to query split within, default='.\\split'\n:") or r".\split"
 
 split_opt = input("Split='S' Merge='M'\n:").upper()
-file = pathlib.Path(input("REQUIRED, Enter .txt file path to read/write ('#'=split_path) (must be relative [name\\[...].txt])\n:").replace("#", _PARENT))
+file = pathlib.Path(input("REQUIRED, Enter .txt file path to read/write (must be relative [name\\[...].txt])\n:")
 
 if split_opt == "S":
     folder = pathlib.Path(DIRECTORY)

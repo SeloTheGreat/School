@@ -2,7 +2,8 @@
 
 ::call pip via python version
 
-if [%1] == [] goto help
+if "%1"=="help" goto help
+if [%1]==[] goto help
 
 ::The %rest% argument contains heading by 1 space after being set! note that
 set first=%1
