@@ -1,3 +1,15 @@
+## This is my personal repo this is not intended for anything serious at all, mostly file manipulation
+
+# Dependincies
+- python 3.9 (least)
+    - [zlib](https://docs.python.org/3.9/library/zlib.html)
+    - [requests](https://pypi.org/project/requests/)
+    - [pathlib](https://docs.python.org/3.9/library/pathlib.html)
+    - [base64](https://docs.python.org/3.9/library/base64.html)
+    - [re](https://docs.python.org/3.9/library/re.html)
+- Windows machine (for batch scripts)
+
+
 > *School Location = Turkey/Türkiye*
 
 # School
