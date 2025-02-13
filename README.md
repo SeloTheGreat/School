@@ -1,9 +1,9 @@
 ## This is my personal repo this is not intended for anything serious at all, mostly file manipulation
 
-# Dependincies
+# Dependencies
 - python 3.9 (least)
     - [zlib](https://docs.python.org/3.9/library/zlib.html)
-    - [requests](https://pypi.org/project/requests/)
+    - [http, http.client](https://docs.python.org/3.9/library/http.client.html)
     - [pathlib](https://docs.python.org/3.9/library/pathlib.html)
     - [base64](https://docs.python.org/3.9/library/base64.html)
     - [re](https://docs.python.org/3.9/library/re.html)
@@ -54,7 +54,7 @@ This script is used to split .txt files into multiple ones so my poor self can u
 
 This script performs a get request from specified url and writes it to a specified file
 
-*Only been used for atleast [python 3.9](https://www.python.org/downloads/release/python-390/)*
+*Only been used for atleast [python 3.9](https://www.python.org/downloads/release/python-390/) or higher*
 
 ---
 
