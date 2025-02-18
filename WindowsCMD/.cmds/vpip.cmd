@@ -11,7 +11,7 @@ set rest=
 
 shift
 :sloop
-if "%1" == "" goto eloop
+if [%1]==[] goto eloop
 set rest=%rest% %1
 shift
 goto sloop
